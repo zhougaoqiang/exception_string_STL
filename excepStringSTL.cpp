@@ -2,11 +2,13 @@
 //
 
 #include "pch.h"
+#include "sales.h"
 #include <iostream>
+
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	use_sales();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
