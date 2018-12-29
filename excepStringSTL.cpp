@@ -28,7 +28,12 @@ int main()
 	//fowl();
 	//vect1();
 	//vect2();
-	vect3();
+	//vect3();
+	//copyit();
+	//inserts();
+	//list1();
+	//setops();
+	multimap();
 }
 void str1() {
 	using namespace std;
