@@ -3,6 +3,8 @@
 
 #include "pch.h"
 #include "sales.h"
+#include "smrtptrs.h"
+#include "stlLearning.h"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -21,8 +23,12 @@ int main()
 	//str1();
 	//strfile();
 	//hangman();
-	str2();
-
+	//str2();
+	//smrtptrs();
+	//fowl();
+	//vect1();
+	//vect2();
+	vect3();
 }
 void str1() {
 	using namespace std;
