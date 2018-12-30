@@ -5,6 +5,7 @@
 #include "sales.h"
 #include "smrtptrs.h"
 #include "stlLearning.h"
+#include "functor.h"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -33,7 +34,12 @@ int main()
 	//inserts();
 	//list1();
 	//setops();
-	multimap();
+	//multimap();
+	//functor();
+	//funadap();
+	//strgst1();
+	//listrmv();
+	usealgo();
 }
 void str1() {
 	using namespace std;
