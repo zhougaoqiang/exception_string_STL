@@ -6,6 +6,7 @@
 #include "smrtptrs.h"
 #include "stlLearning.h"
 #include "functor.h"
+#include "otherlibrary.h"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -39,7 +40,10 @@ int main()
 	//funadap();
 	//strgst1();
 	//listrmv();
-	usealgo();
+	//usealgo();
+	//valvect();
+	//vslice();
+	ilist();
 }
 void str1() {
 	using namespace std;
