@@ -18,7 +18,7 @@ void str1();
 void strfile();
 void hangman();
 void str2();
-
+/*
 int main()
 {
 	//use_sales();
@@ -45,6 +45,7 @@ int main()
 	//vslice();
 	ilist();
 }
+*/
 void str1() {
 	using namespace std;
 
