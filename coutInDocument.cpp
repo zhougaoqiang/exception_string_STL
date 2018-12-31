@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "write.h"
 #include "cin_get.h"
+#include "fileInOut.h"
 
 
 int main()
@@ -20,5 +21,16 @@ int main()
 	//cinexcep();
 	//get_fun();
 	//peeker();
-	truncate();
+	//truncate();
+
+
+
+
+	//fileio();
+	//append();
+	//binary_File();
+	//random();
+
+	//strout();
+	strin();
 }
