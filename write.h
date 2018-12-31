@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>  //or else string.h
 #include <cmath>
+#include <iomanip>
 
 void write();  //using cout.write()
 
@@ -17,6 +18,9 @@ void precise();  //setting the precisionÏÔÊ¾¾«¶È
 void setf_Test();  //using setf() to contorol formatting
 
 void setf_Test2();  //using setf() with 2 arguments to control formatting
+
+void iomanip(); //using manipulators from iomanip
+//some systems require explictitly link the math library
 
 /*
 
@@ -251,4 +255,23 @@ Right Justification:
  +31|      +5.568|
  +41|      +6.403|
 	*/
+}
+
+void iomanip() {
+	using namespace std; //use new standard manipulators
+	cout << fixed << right;
+
+	//use iomanip manipulators
+	cout << setw(6) << "N" << setw(14) << "square root"
+		<< setw(15) << "fourth root\n";
+
+	double root;
+	for (int n = 10; n <= 100; n += 10)
+	{
+		root = sqrt(double(n));
+		cout << setw(6) << setfill('*') << n << setfill(' ')
+			<< setw(12) << setprecision(3) << root
+			<< setw(14) << setprecision(4) << sqrt(root)
+			<< endl;
+	}
 }

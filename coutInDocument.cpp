@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "write.h"
+#include "cin_get.h"
 
 
 int main()
@@ -11,5 +12,13 @@ int main()
 	//fill();
 	//precise();
 	//setf_Test();
-	setf_Test2();
+	//setf_Test2();
+	//iomanip();
+
+
+	//check_it();
+	//cinexcep();
+	//get_fun();
+	//peeker();
+	truncate();
 }
