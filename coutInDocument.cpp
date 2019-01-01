@@ -4,6 +4,7 @@
 #include "fileInOut.h"
 
 
+/*
 int main()
 {
 	//write();
@@ -34,3 +35,4 @@ int main()
 	//strout();
 	strin();
 }
+*/
